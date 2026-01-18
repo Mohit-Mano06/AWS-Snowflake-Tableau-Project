@@ -54,3 +54,7 @@ The system architecture follows a modern ELT (Extract, Load, Transform) pattern:
 * **Snowflake Account**: For data warehousing (free trial works).
 * **Tableau Desktop / Public**: For creating visualizations.
 * **SnowSQL** (Optional): For command-line execution.
+
+* ## Status
+
+🚧 Project in progress – Snowflake transformations and Power BI dashboards under development.
