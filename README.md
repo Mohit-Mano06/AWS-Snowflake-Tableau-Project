@@ -17,7 +17,9 @@ This project demonstrates a robust end-to-end data engineering pipeline that int
 ```bash
 AWS-Snowflake-Tableau-Project/
 ├── aws/                # AWS Configuration and IAM policies
-├── data/               # Raw source data (CSVs)
+├── data/               # Raw source data 
+│   ├── curated/        # Contains CSV files generated after SQL-based data transformation performed in Snowflake.
+│   └── raw/            # Contains raw CSV files downloaded from the source.
 ├── images/             # Documentation images and screenshots
 ├── snowflake/          # Snowflake SQL scripts (DDL, Stages, Pipes)
 ├── tableau/            # Tableau Workbooks (.twb/.twbx)
@@ -35,7 +37,7 @@ The system architecture follows a modern ELT (Extract, Load, Transform) pattern:
 
 ## Pipeline Flow
 
-*(Placeholder: Pipeline Architecture Diagram to be added)*
+![Pipeline Architecture](images/pipeline_architecture.png)
 
 ## Security Considerations
 
@@ -46,7 +48,7 @@ The system architecture follows a modern ELT (Extract, Load, Transform) pattern:
 
 ## Tableau Dashboard Pics
 
-*(Placeholder: Add screenshots of the final Tableau dashboard)*
+![Tableau Dashboard](tableau/dashboard_screenshot.png)
 
 ## Prerequisites
 
@@ -57,4 +59,4 @@ The system architecture follows a modern ELT (Extract, Load, Transform) pattern:
 
 * ## Status
 
-🚧 Project in progress – Snowflake transformations and Power BI dashboards under development.
+🚧 Project in progress – Snowflake transformations and Tableau dashboards under development.
