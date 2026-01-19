@@ -57,6 +57,3 @@ The system architecture follows a modern ELT (Extract, Load, Transform) pattern:
 * **Tableau Desktop / Public**: For creating visualizations.
 * **SnowSQL** (Optional): For command-line execution.
 
-* ## Status
-
-🚧 Project in progress – Snowflake transformations and Tableau dashboards under development.
